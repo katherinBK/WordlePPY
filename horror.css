@@ -1,0 +1,77 @@
+@import url(https://fonts.google.com/specimen/Nosifer?preview.text=HORROR%20WORDLE&query=Nosif);
+@font-face {
+    font-family: 'Nosifer';
+  src: url(https://fonts.gstatic.com/s/nosifer/v15/ZGjXol5JTp0g5bxZaCpZI5e-76dKw.woff2) format('woff2');
+}
+h1 {
+    font: 1em Nosifer;
+    font-size: 50px;
+    text-align: center;
+}
+.input-area {
+  margin: 30px auto;
+  text-align: center;
+}
+
+#guess-input {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+  border: 1px solid #ccc;
+}
+
+#guess-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: gray;
+  color: hsl(0, 86%, 49%);
+  border: solid;
+  border-radius: 3px;
+  border-color: #ff0000;
+  bo
+  margin-bottom: 3px;
+  box-shadow: 0 0 5px red, 0 0 25px red
+}
+
+.letter {
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  min-width: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.row {
+  white-space: nowrap; 
+  overflow-x: auto; 
+  max-width: 100%;
+}
+.container {
+ background-color: black;
+}
+body {
+  background-color: black;
+}
+.letter-box {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+}
+#grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 90px;
+}
